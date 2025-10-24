@@ -186,5 +186,5 @@ end
 
 for i=1, libnotify.max_window do
   libnotify.window[i] = libnotify:CreateFrame()
-  libnotify.window[i]:SetPoint("BOTTOM", 0, 28 + (100*i))
+  libnotify.window[i]:SetPoint("TOP", 0, -20-(80*(i-1)))
 end
